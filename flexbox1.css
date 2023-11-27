@@ -1,0 +1,17 @@
+body{
+    background-color: midnightblue;
+}
+nav{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-right: 15px;
+    list-style-type: none;
+}   

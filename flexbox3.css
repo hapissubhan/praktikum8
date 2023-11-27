@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    height: 20vh;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+}
+
+article {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: beige;
+}
+
+aside {
+    background-color: red;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+nav {
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 30px;
+    height: 555px;
+    width: 100px;
+    border-radius: 5px;
+}
